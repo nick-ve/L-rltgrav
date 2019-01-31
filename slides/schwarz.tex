@@ -1,0 +1,104 @@
+\Transcb{yellow}{blue}{Curvature in space-time : The Schwarzschild metric}
+\onecolumn
+\begin{itemize}
+\item Consider an isolated point mass $M$ at the origin $O$ in empty space
+\item[$\ast$] Two effects of curvature in space-time
+\item[] Time is distorted by the gravitational time dilation
+\item[] 3-dim. position space becomes curved due to the presence of the mass $M$
+\item Isolated point mass $M$ in $O \rightarrow$ Space is isotropic w.r.t. $O \rightarrow$ Use spherical coord.
+\item[] Curvature can only depend on $r$ and should vanish when $r \rightarrow \infty$
+\item General expression for a curved isotropic metric in spherical coordinates~:
+\item[] {\blue $\d s^{2}=\alpha(r)(c\,\d t)^{2}-[f(r)(\d r)^{2}+(r\d\theta)^{2}+(r\sin(\theta)\d\varphi)^{2}]$}
+\item[$\ast$] {\red Determination of the time distortion $\alpha(r)$
+               using $\d s=c\,\d\tau$ when $\d\vec{r}=\vec{0}$}
+\item[] From before we have seen~: 
+        $\displaystyle \d\tau_{obs} \approx
+         \d\tau_{emit}\left(1+\frac{\Phi_{emit}-\Phi_{obs}}{c^{2}}\right)^{-1}$
+\item[] Putting the emitter at coordinates $(t,r,0,0)$ and the receiver at $(t,\infty,0,0)$ we obtain~:
+\item[] $\displaystyle
+         \frac{(\d\tau_{emit})^{2}}{(\d\tau_{obs})^{2}}
+         =\frac{\alpha(r)(\d t)^{2}}{\alpha(\infty)(\d t)^{2}}=\alpha(r)
+         \approx \left(1+\frac{\Phi_{emit}}{c^{2}}\right)^{2}
+         \approx \left(1+\frac{2\Phi_{emit}}{c^{2}}\right)$
+\end{itemize}
+
+\Tr
+\begin{itemize}
+\item Using $\displaystyle \Phi_{emit}=\frac{-GM}{r}$ directly yields
+      {\blue $\displaystyle \alpha(r)=\left(1-\frac{2GM}{c^{2}r}\right)$}
+\item[] The same result is obtained from a rigorous treatment of Einstein's equations !
+\item[$\ast$] {\red Determination of the spatial deformation $f(r)$}
+\item[] Spatial curvature can only depend on $r \rightarrow K(r)$ and $K(\infty) \equiv 0$
+\item Let's try to "guess" the most simple form of $K(r)$
+\item[] $K(r) \rightarrow 0$ when $r \rightarrow \infty \Rightarrow K(r) \propto r^{-n}$
+\item[] Intuition~: $K \propto M$ and also $G$ should be in the game
+\item[] Use $c$ to get dimensions right and use $\lambda=\pm 1$ to allow positive and
+        negative curvature 
+\item Intuitive guess~: $K(r)=\lambda MG^{k}c^{m}r^{-n}$
+\item[] $\rightarrow$ Dimensionless for $(k,m,n)=(1,-2,3)$
+\item[] Spherical surface~: $K=1/R^{2} >0 \rightarrow$ mass $M$~: "rubber sheet" gets $K<0$
+\item[$\ast$] So, for the simplest form we obtain {\blue $\displaystyle K(r)=\frac{-GM}{c^{2}r^{3}}$}
+\item[] The same result is obtained from a rigorous treatment of Einstein's equations !
+\end{itemize}
+
+\Tr
+\begin{itemize}
+\item Determination of $f(r)$ from the Gauss curvature formule using our metric and $K(r)$
+\item[] Go 2-D in $(r,\varphi)$ by using $\theta \equiv \pi/2 \rightarrow \d\theta=0 \quad \sin(\theta)=1$
+        and of course $\d t \equiv 0$
+\item[] This yields~: $\displaystyle K(r)=\frac{1}{2rf^{2}(r)}\cdot\frac{\d f(r)}{\d r}$
+\item[] Using our curvature $\displaystyle K(r)=\frac{-GM}{c^{2}r^{3}}$ we obtain
+        $\displaystyle \frac{1}{f^{2}(r)}\frac{\d f(r)}{\d r}=\frac{-2GM}{c^{2}r^{2}}$
+\item[$\ast$] Solution of this differential equation~:
+              $\displaystyle \frac{-1}{f(r)}=\frac{2GM}{c^{2}r}+C \quad$ ($C=$constant)
+\item[] Boundary condition~: $f(r=\infty)=1 \rightarrow C=-1
+        \Rightarrow {\displaystyle \blue f(r)=\left(1-\frac{2GM}{c^{2}r}\right)^{-1}}$
+\item The final metric we obtain is called the {\blue Schwarzschild metric}\\
+\item[]{\red \shabox{$\displaystyle
+       \d s^{2}=\left(1-\frac{2GM}{c^{2}r}\right)(c\,\d t)^{2}
+       -\left[\frac{(\d r)^{2}}{\left(1-\frac{2GM}{c^{2}r}\right)}
+       +(r\d\theta)^{2}+(r\sin(\theta)\d\varphi)^{2}\right]$}}
+\end{itemize}
+
+\Tr
+\begin{itemize}
+\item {\blue The Schwarzschild metric describes the space-time around an isolated point mass $M$}
+\item[] $\rightarrow$ Prediction of worldlines of test bodies which can be experimentally verified
+\item[$\ast$] Special case when $\displaystyle \left(1-\frac{2GM}{c^{2}r}\right)=0 \qquad
+              \rightarrow g_{00}=0 \qquad g_{11}=-\infty$
+\item[] Define the \colorbox{yellow}{\blue Schwarzschild radius $R_{s}=2GM/c^{2}$}
+\item Consider a material body at rest at $r>R_{s} \rightarrow \d s^{2}>0 \quad \Rightarrow$
+      normal (timelike) situation
+\item[] {\red At $r<R_{s}$ the $\d s^{2}>0$ means the body HAS to move $\rightarrow$ it falls into $M$}
+\item Consider observation of a light ray emitted radially from $r_{emit}$ to $r=\infty$
+\item[] Schwarzschild metric~: $\displaystyle \nu_{obs}=\nu_{emit}\left(1-\frac{R_{s}}{r_{emit}}\right)^{1/2}$
+\item[] If $r_{emit}>R_{s} \rightarrow$ light is redshifted $\Rightarrow$ normal situation
+\item[] {\red At $r_{emit}=R_{s}$ the redshift becomes $\infty \rightarrow$ No light is observed}
+        (infinite time dilation)
+\item[] {\blue At $r=R_{s} \rightarrow$ infinite time dilation $\Rightarrow$ Events are observed as "frozen"}
+\item[$\ast$] Mass $M$ contained within a sphere of radius $R_{s} \rightarrow$ Nothing can escape the surface
+\item[] An object which is smaller than its Schwarzschild radius is called a {\blue Black Hole}
+\end{itemize}
+
+\Tr
+{\red
+\begin{center}
+Exercises
+\end{center}
+%
+\begin{itemize}
+\item Consider an isolated point mass $M$ with Schwarzschild radius $R_{s}$, located at the origin $O$
+\item[] From a distance $r_{e}>R_{s}$ a light ray is radially emitted and observed at a distance $r_{o}>r_{e}$
+\item[$\ast$] Show that the exact formula for the gravitational redshift $z$ is given by~:
+              \begin{equation*}
+              z=\sqrt{\frac{1-R_{s}/r_{o}}{1-R_{s}/r_{e}}}-1
+              \end{equation*}
+\item Consider a proton as a spherical object with a radius of 1 fm.
+\item[$\ast$] Determine from this the density of normal nuclear matter in GeV/fm$^{3}$
+\item The mass of the Earth is $M=5.975 \cdot 10^{24}$ kg
+\item[$\ast$] Determine the Schwarzschild radius $R_{s}$ of the Earth
+\item Imagine that all the mass of the Earth is concentrated in a sphere with radius $R_{s}$
+\item[$\ast$] Determine the density in GeV/fm$^{3}$ of this "Earth black hole" object
+\item[] For comparison~: QGP phase transition is expected to happen at about 3 GeV/fm$^{3}$
+\end{itemize}
+}

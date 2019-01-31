@@ -1,0 +1,76 @@
+\Transcb{yellow}{blue}{Curvature in space}
+\onecolumn
+\begin{itemize}
+\item Investigate spatial curvature by considering familiar 2-dim. surfaces
+\item[] Can be looked upon as embedded in 3-dim. space $\rightarrow$ easy to catch the picture
+\item[$\ast$] 2-dimensional plane~: Obviously flat
+\item[$\ast$] Surface of a sphere ~: probably curved
+\item[] Can't coincide with a plane without stretching or tearing
+\item[$\ast$] Surface of a cylinder~: probably flat
+\item[] Can be unrolled onto a plane without distortion
+\item {\blue Gauss~: The curvature of a surface can be determined intrinsically}
+\item[] Make measurements and apply the theorems of Euclidean plane geometry
+\item[] In case of contradiction~: Geometry is non-Euclidean $\rightarrow$ curved surface
+\item[$\ast$] Example~: Triangle in a plane $\rightarrow$ sum of the angles adds up to $180^{0}$
+\item[] Triangle on surface of a sphere~: sum of angles $>180^{0} \rightarrow$ spherical surface is curved
+\item {\blue Need for a precise definition of curvature}
+\item[] {\red Use distance $\d s$ between any 2 points on the surface}
+\end{itemize}
+
+\Tr
+\begin{itemize}
+\item Curvature in a 2-dim. plane~: Cartesian grid $\quad x_{1} \equiv x \quad x_{2} \equiv y$
+\item[] $\d s^{2}=(\d x)^{2}+(\d y)^{2}=(\d x_{1})^{2}+(\d x_{2})^{2}
+        \rightarrow g_{\mu\nu}=\text{diag}(1,1) \quad$ {\blue No curvature}
+\item[$\ast$] Use polar coordinates in the same plane~: $\quad x_{1}=r \quad x_{2}=\varphi$
+\item[] $\d s^{2}=(\d r)^{2}+(r\d\varphi)^{2}=(\d x_{1})^{2}+(x_{1})^{2}(\d x_{2})^{2}
+        \rightarrow g_{\mu\nu}=\text{diag}(1,(x_{1})^{2})$
+\item[] {\blue If started with polar coord., how would we know whether the surface is curved or not ?}
+\item[] Try to find a coord. trafo such that $g_{\mu\nu} \rightarrow \text{diag}(1,1)$
+\item[] Obviously such a trafo is~:
+        {\red $(x_{1})^{\,\prime}=x_{1}\cos(x_{2}) \quad (x_{2})^{\,\prime}=x_{1}\sin(x_{2})$}
+\item Curvature on the surface of a cylinder with radius $R$~: Cyl. coordinates $(r,\varphi,z)$
+\item[] $\d s^{2}=(R\d\varphi)^{2}+\d z^{2}$ where $R$ is a constant $\rightarrow$
+        Use $\quad x_{1}=R\varphi \quad x_{2}=z$
+\item[] $\d s^{2}=(\d x_{1})^{2}+(\d x_{2})^{2} \rightarrow g_{\mu\nu}=\text{diag}(1,1) \quad$
+         {\blue No curvature}
+\item Curvature on the surface of a sphere with radius $R$~: Spherical coordinates $(r,\theta,\varphi)$
+\item[] $\d s^{2}=(R\d\theta)^{2}+(R\sin(\theta)\d\varphi)^{2}$ where $R$ is a constant $\rightarrow$
+        Use $\quad x_{1}=\theta \quad x_{2}=\varphi$
+\item[] $\d s^{2}=R^{2}(\d x_{1})^{2}+R^{2}\sin^{2}(x_{1})(\d x_{2})^{2}
+         \rightarrow g_{\mu\nu}=\text{diag}(R^{2},R^{2}\sin^{2}(x_{1}))$
+\item[] No trafo possible to get $g_{\mu\nu}=\text{diag}(1,1) \rightarrow$
+        {\blue Spherical surface is intrinsically curved}
+\end{itemize}
+
+\Tr
+\begin{center}
+{\blue The curvature formula of Gauss}
+\end{center}
+%
+\begin{itemize}
+\item From the previous~: {\red The curvature is contained in $g_{\mu\nu}$}
+\item[] The {\blue curvature $K$} is an invariant quantity
+\item[] It should be possible to obtain the curvature $K$ from the tensor $g_{\mu\nu}$
+\item The recipe provided by Gauss to determine the curvature (limited to 2-dim. surfaces)
+      \begin{equation*}
+      {\blue
+      \begin{split}
+       K=\frac{1}{2g_{11}g_{22}} \left\{
+       \frac{-\partial^{2}g_{11}}{(\partial x_{2})^{2}}+\frac{-\partial^{2}g_{22}}{(\partial x_{1})^{2}} \right.
+     &+\frac{1}{2g_{11}} \left[
+       \frac{\partial g_{11}}{\partial x_{1}} \cdot \frac{\partial g_{22}}{\partial x_{1}}
+       +\left(\frac{\partial g_{11}}{\partial x_{2}}\right)^{2} \right] \\
+     &+\frac{1}{2g_{22}} \left. \left[
+       \frac{\partial g_{11}}{\partial x_{2}} \cdot \frac{\partial g_{22}}{\partial x_{2}}
+       +\left(\frac{\partial g_{22}}{\partial x_{1}}\right)^{2} \right] \right\} \\
+      \end{split}
+      }
+      \end{equation*}
+\item[$\ast$] For the surface of a sphere with radius $R$ this yields~: $K=1/R^{2}$
+\item Higher dimensional surfaces~: Can't be embedded in 3-dim. space $\rightarrow$ imagination fails
+\item[] Equivalent of curvature $K$ for higher dim. surfaces involves a
+        {\blue curvature tensor $R_{\alpha\beta\gamma\delta}$}
+\item[$\ast$] General treatment of Einstein's theory $\rightarrow$ {\blue Tensor calculus}
+\item[] Our cases contain symmetries $\rightarrow$ we can avoid tensor calculus and use $K$ instead
+\end{itemize}

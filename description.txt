@@ -1,6 +1,3 @@
-# L-rltgrav
-Introductory lecture on General Relativity
-
 Gravity as a Relativistic Effect
 ================================
 Modern scientific cosmology is one of the most impressive intellectual  
