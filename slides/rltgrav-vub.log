@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.15)  4 FEB 2019 19:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.2.15)  4 FEB 2019 20:18
 entering extended mode
 **./rltgrav-vub.tex
 (rltgrav-vub.tex
@@ -460,65 +460,72 @@ Package pdftex.def Info: hanford-ligo.jpg used on input line 101.
  [12
 
  <./LIGO-schematic.jpg> <./hanford-ligo.jpg>]
-<ligo-dt.jpg, id=64, 359.3425pt x 250.9375pt>
+<LIGO-sens.jpg, id=64, 790.955pt x 610.28pt>
+File: LIGO-sens.jpg Graphic file (type jpg)
+ <use LIGO-sens.jpg>
+Package pdftex.def Info: LIGO-sens.jpg used on input line 114.
+(pdftex.def)             Requested size: 534.7285pt x 412.56496pt.
+ [13
+
+ <./LIGO-sens.jpg>] <ligo-dt.jpg, id=68, 359.3425pt x 250.9375pt>
 File: ligo-dt.jpg Graphic file (type jpg)
  <use ligo-dt.jpg>
-Package pdftex.def Info: ligo-dt.jpg used on input line 122.
+Package pdftex.def Info: ligo-dt.jpg used on input line 130.
 (pdftex.def)             Requested size: 284.52756pt x 198.70558pt.
 
-<GW150914.png, id=65, 2007.5pt x 1697.34125pt>
+<GW150914.png, id=69, 2007.5pt x 1697.34125pt>
 File: GW150914.png Graphic file (type png)
  <use GW150914.png>
-Package pdftex.def Info: GW150914.png used on input line 129.
+Package pdftex.def Info: GW150914.png used on input line 137.
 (pdftex.def)             Requested size: 426.79134pt x 360.85507pt.
 
-Overfull \hbox (51.52284pt too wide) in paragraph at lines 129--130
+Overfull \hbox (51.52284pt too wide) in paragraph at lines 137--138
  [][] 
  []
 
-[13
+[14
 
- <./ligo-dt.jpg> <./GW150914.png>] [14
+ <./ligo-dt.jpg> <./GW150914.png>] [15
 
 ]
-<equivalence2.png, id=74, 580.1675pt x 698.61pt>
+<equivalence2.png, id=78, 580.1675pt x 698.61pt>
 File: equivalence2.png Graphic file (type png)
  <use equivalence2.png>
-Package pdftex.def Info: equivalence2.png used on input line 173.
+Package pdftex.def Info: equivalence2.png used on input line 181.
 (pdftex.def)             Requested size: 330.80513pt x 398.33858pt.
 
-[15
+[16
 
- <./equivalence2.png (PNG copy)>]) (space-curve.tex [16
+ <./equivalence2.png (PNG copy)>]) (space-curve.tex [17
 
 ]
 Curvature in space
-[17
+[18
 
-] [18]
+] [19]
 
 Package amsmath Warning: Cannot use `split' here;
 (amsmath)                trying to recover with `aligned' on input line 67.
 
-) (schwarz.tex [19]
+) (schwarz.tex [20]
 Curvature in space-time : The Schwarzschild metric
-[20
+[21
 
-] [21]
+] [22]
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
-[22] [23]) [24] (rltgrav-vub.aux)
+[23] [24]) [25] (rltgrav-vub.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3315 strings out of 493333
- 42807 string characters out of 3139150
+ 3320 strings out of 493333
+ 42891 string characters out of 3139150
  111897 words of memory out of 3000000
- 6708 multiletter control sequences out of 15000+200000
+ 6712 multiletter control sequences out of 15000+200000
  22658 words of font info for 90 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,16n,45p,239b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -529,9 +536,9 @@ TeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmssdc10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb>
-Output written on rltgrav-vub.pdf (25 pages, 2957538 bytes).
+Output written on rltgrav-vub.pdf (26 pages, 3105265 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
+ 134 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
